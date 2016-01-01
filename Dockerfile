@@ -1,4 +1,4 @@
-FROM alexw23/nginx:latest
+FROM quay.io/ignited/nginx:latest
 MAINTAINER Marcin Ryzycki <marcin@m12.io>
 
 ADD container-files/config/install* /config/
